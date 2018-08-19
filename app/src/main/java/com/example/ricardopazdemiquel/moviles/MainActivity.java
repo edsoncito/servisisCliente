@@ -33,6 +33,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -58,11 +60,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private BroadcastReceiver broadcastReceiver;
     private  BroadcastReceiver broadcastReceiverMessage;
 
-    private Button btn_nav_pidesiete;
-    private Button btn_nav_formaspago;
-    private Button btn_nav_miperfil;
-    private Button btn_nav_misviajes;
-    private Button btn_nav_preferencias;
+    private LinearLayout btn_nav_pidesiete;
+    private LinearLayout btn_nav_formaspago;
+    private LinearLayout btn_nav_miperfil;
+    private LinearLayout btn_nav_misviajes;
+    private LinearLayout btn_nav_preferencias;
     private JSONObject usr_log;
 
     @Override

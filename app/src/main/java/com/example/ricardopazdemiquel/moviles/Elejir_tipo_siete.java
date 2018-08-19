@@ -15,13 +15,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 
 public class Elejir_tipo_siete extends AppCompatActivity implements View.OnClickListener {
 
-    private Button siete;
-    private Button siete_maravilla;
-    private Button siete_super;
-    private Button siete_togo;
+    private LinearLayout siete;
+    private LinearLayout siete_maravilla;
+    private LinearLayout siete_super;
+    private LinearLayout siete_togo;
 
     double longitudeGPS, latitudeGPS;
 

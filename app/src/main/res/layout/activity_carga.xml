@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgroundcolor"
+    android:background="@color/colorWhite"
     tools:context=".Carga">
 
     <ImageView
@@ -15,5 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logocargaforeground" />
+        app:srcCompat="@drawable/logo_servisis" />
+
+
 </android.support.constraint.ConstraintLayout>
