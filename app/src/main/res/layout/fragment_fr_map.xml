@@ -19,11 +19,12 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="165dp"
-            android:layout_height="93dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
             android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/ic_logosiete_foreground"
+            android:src="@drawable/logo_servisis2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -141,18 +142,15 @@
         <Button
             android:id="@+id/Pide_tu_siete"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="24dp"
-            android:layout_marginEnd="40dp"
-            android:layout_marginStart="40dp"
-            android:background="@drawable/rounded_corner"
-            android:backgroundTint="@color/colorPrimary"
-            android:text="Pide tu Siete"
+            android:layout_height="55sp"
+            android:background="@color/colorPrimary"
+            android:text="Pide un viaje"
             android:textColor="#fff"
-            android:textSize="20dp"
+            android:textSize="22dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            android:textAllCaps="false"/>
 
     </android.support.constraint.ConstraintLayout>
 

@@ -19,9 +19,9 @@
 
     <application
         android:name="utiles.Contexto"
-        android:icon="@mipmap/ic_p_siete"
+        android:icon="@drawable/logo_servisis2"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_p_supersiete_round"
+        android:roundIcon="@drawable/logo_servisis2"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity

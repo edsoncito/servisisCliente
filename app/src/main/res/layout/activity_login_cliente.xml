@@ -38,7 +38,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
-                android:gravity="center_horizontal"
+                android:layout_gravity="center"
                 android:orientation="vertical">
 
                 <TextView
@@ -49,11 +49,6 @@
                     android:textColor="@android:color/background_light"
                     android:textSize="24sp" />
 
-                <Button
-                    android:id="@+id/btn_iniciar_conductor"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:background="@mipmap/ic_miperfil_round" />
 
                 <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"

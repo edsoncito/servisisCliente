@@ -109,11 +109,9 @@ public class EsperandoConductor extends AppCompatActivity implements View.OnClic
             if(json_carrera.getInt("estado")>=3){
                     conductor_llego(getIntent());
             }
-
         } catch (JSONException e) {
             e.printStackTrace();
         }
-
 
         View view =findViewById(R.id.button_sheet);
         bottomSheetBehavior=BottomSheetBehavior.from(view);
